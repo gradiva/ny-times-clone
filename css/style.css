@@ -27,6 +27,12 @@ h2 {
   color: #000;
 }
 
+date {
+  display: block;
+  margin-top: 10px;
+  color: #666;
+}
+
 a {
 	color: inherit;
 	text-decoration: none;
@@ -97,3 +103,142 @@ button:hover {
 
 /* Main */
 
+.main {
+  margin: 120px auto 0 auto;
+  width: 945px;
+}
+
+article.main-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-header {
+  width: 100%;
+}
+
+/* Figure */
+figure {
+  width: 100%;
+}
+
+figure img.main-article-image {
+  width: 945px;
+  height: auto;
+}
+
+figcaption,
+.g-sub {
+  color: #666;
+  font-size: 0.9rem;
+  padding-top: 5px;
+  line-height: 1.2rem;
+}
+
+.credits,
+.small-grey-text {
+  font-size: 0.8rem;
+  color: #999;
+  line-height: normal;
+}
+
+/* Subtitle and article information */
+.article-information {
+  font-size: 0.9rem;
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.article-information a {
+  text-decoration: underline;
+  text-decoration-color: #0003;
+}
+
+.article-information a:hover {
+  text-decoration-color: #000;
+}
+
+.article-information + p {
+  clear: both;
+  padding-top: 20px;
+}
+
+.author {
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 0;
+}
+
+date.main-date{
+  color: #000;
+}
+
+.social { 
+  top: 0;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.social li {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.social li:nth-child(-n+4):hover {
+  background-color: #fff;
+  border: 1.5px solid #eeeeef;
+}
+
+.social li:nth-child(n+5):hover {
+  color: #eeeeef;
+}
+
+.social li:nth-child(-n+4) {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  background-color: #eeeeef;
+  text-align: center;
+  padding-top: 1px;
+}
+
+.social li:nth-child(n+5) {
+  text-align: center;
+  font-size: 1.5em;
+  color: #666;
+  padding-top: 6px;
+} 
+
+/* Story */
+
+.story {
+  width: 600px;
+  margin: 0 auto 20px auto;
+  line-height: 1.5em;
+  color: #333333;
+  font-size: 1.2rem;
+}
+
+.story p {
+  margin-bottom: 20px;
+}
+
+.youtube-video {
+  width: 600px;
+  left: auto;
+}
+
+figure + p {
+  margin-top: 30px;
+}
+
+figure.cosmos18 {
+  width: 630px;
+  left: -20px;;
+}
+
+figure.cosmos18 img {
+  width: 100%;
+}
