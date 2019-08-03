@@ -242,3 +242,41 @@ figure.cosmos18 {
 figure.cosmos18 img {
   width: 100%;
 }
+
+/* Sections with aside */
+.section-with-aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-with-aside {
+  margin-right: 0;
+  margin-left: 170px;
+}
+
+/* Asides */
+aside {
+  font-family: Arial, sans-serif;
+  width: 130px;
+  align-self: center;
+}
+
+.aside-title {
+  font-size: 0.9rem;
+}
+
+.aside-content {
+  line-height: 1.1rem;
+  padding-left: 10px;
+  border-left: 1px solid #9999;
+}
+
+aside p {
+  font-size: 0.7rem;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+aside img {
+  width: 120px;
+}
