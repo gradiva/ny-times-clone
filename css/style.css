@@ -1,0 +1,99 @@
+/* General */
+
+body {
+  font-family: 'Times New Roman', times, serif;
+  font-size: 100%;
+}
+
+i span {
+  display: none;
+}
+
+h1 {
+  max-width: 600px;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 700;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  color: #000;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	color:inherit;
+}
+
+/* Header */
+
+header.top-bar-header {
+  padding: 4px 15px 6px 15px;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #e2e2e2;
+  /* box-shadow: 2px 2px 10px 1px #e2e2e2; */
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.search-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search-menu a, i {
+  margin: 0 15px;
+}
+
+.nytimes-logo {
+  width: 195px;
+  height: 26px;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+button {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #326891;
+  background-color: #6288a5;
+  transition: ease 0.6s;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  padding: 8px 12px;
+  margin: 0 5px;
+}
+
+button:hover {
+  background-color: #326891;
+  transition: ease 0.6s;
+}
+
+/* Main */
+
