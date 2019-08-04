@@ -276,3 +276,85 @@ aside p {
 aside img {
   width: 120px;
 }
+
+/* Theory of inflation */
+
+.theory-inflation {
+  width: 720px;
+  margin: 50px auto;
+  font-family: Arial, sans-serif;
+}
+
+.graphics {
+  position: relative;
+  margin-top: 15px;
+}
+
+.graphics img {
+  max-width: 100%;
+}
+
+.g-text {
+  width: 170px;
+  font-size: 0.8rem;
+  line-height: normal;
+  position: absolute;
+}
+
+.g-start {
+  font-weight: bold;
+}
+
+.row-1 {
+  top: 19%;
+}
+
+.row-2 {
+  top: 68%;
+}
+
+.col-2 {
+  left: 26%;
+}
+
+.col-3 {
+  left: 52%;
+}
+
+.col-4 {
+  left: 78%;
+}
+
+.author {
+  font-size: 0.9rem;
+}
+
+.author::before {
+  content: "";
+  width: 55px;
+  border-top: 1px solid #000;
+  display: block;
+  margin-bottom: 30px;
+}
+
+/* Footer */ 
+
+footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.5px solid #ebebeb;
+}
+
+footer ul li {
+  display: inline-block;
+  font-size: 0.7em;
+  font-family: Arial, sans-serif;
+  padding-left: 10px;
+  color: #b8a5b8;
+}
+
+footer ul li:first-child {
+  padding-left: 0;
+}
