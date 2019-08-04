@@ -77,7 +77,7 @@ header.top-bar-header {
   padding-right: 30px;
 }
 
-.header-buttons button {
+button {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: bold;
@@ -112,6 +112,7 @@ article.main-article {
 
 .article-header {
   width: 100%;
+  align-self: center;
 }
 
 /* Figure */
@@ -141,11 +142,17 @@ figcaption,
 }
 
 /* Subtitle and article information */
+
 .article-information {
+  width: 600px;
   font-size: 0.9rem;
-  margin-top: 25px;
+  margin-top: 15px;
+}
+
+.social-and-date {
   display: flex;
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .article-information a {
@@ -172,6 +179,7 @@ date.main-date{
   color: #000;
 }
 
+/* Social links and icons */ 
 .social { 
   top: 0;
   font-size: 0.8rem;
@@ -237,6 +245,11 @@ figure.cosmos18 img {
   width: 100%;
 }
 
+.story-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* Sections with aside */
 .section-with-aside {
   display: flex;
@@ -278,7 +291,7 @@ aside img {
 /* Theory of inflation */
 
 .theory-inflation {
-  width: 720px;
+  width: 100%;
   margin: 50px auto;
   font-family: Arial, sans-serif;
 }
@@ -341,27 +354,22 @@ aside img {
   display: flex;
   justify-content: space-between;
   max-width: 1200px;
-  border: 1px solid red;
 }
 
 .suggestions-left {
-  /* flex: 2 1 auto; */
+  flex: 2 1 auto;
   display: flex;
-  justify-content: center; 
+  justify-content: space-between;
   flex-direction: column;
-  /* flex-wrap: wrap; */ 
+  flex-wrap: wrap; 
 }
 
 .suggestions-right {
-  /* flex: 1 1 auto; */
-}
-
-.suggestions-more {
-  /* display: flex; */
+  margin-left: 2%;
+  width: 100%;
 }
 
 .suggested-articles {
-  border: 3px solid goldenrod;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -369,18 +377,8 @@ aside img {
 }
 
 .suggested-single-article {
-  flex: 1 1 33%;
-  padding: 2px;
-  /* display: flex;
-  flex-direction: column; */
-  border: 1px solid green;
-  /* width: 272px;
-  height: 285px; */
-}
-
-.suggested-article {
-  /* width: 272px;
-  height: 285px; */
+  flex: 1 1 25%;
+  padding: 3px 8px;
 }
 
 .s-titles {
@@ -394,29 +392,18 @@ aside img {
   border-top: 1px solid #ebebeb;
 }
 
-
 .suggestions img {
   width: 100%;
 }
 
 .suggestions h2 {
-  /* width: 100%;
+  width: 100%;
   padding-top: 20px;
-  border-top: 1px solid #000; */
-}
-
-.suggestions figure {
-  /* height: 203px; */
-}
-
-.suggestions figcaption {
-  /* float: right;
-  font-size: 0.7rem;
-  padding: 0; */
+  border-top: 1px solid #000;
 }
 
 .suggestions date {
-  /* font-size: 0.9rem; */
+  font-size: 0.9rem;
 }
 
 /* Bottom nav */ 
