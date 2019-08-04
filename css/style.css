@@ -77,7 +77,7 @@ header.top-bar-header {
   padding-right: 30px;
 }
 
-button {
+.header-buttons button {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: bold;
